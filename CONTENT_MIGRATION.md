@@ -1,33 +1,12 @@
-# Sisällön siirron tilanne — 2026-10-17
+# Sisältösiirron tila (v12)
 
-## Julkaisun ehdoton hyväksymisehto
-Lopullisessa julkaistussa sivustossa ei ole linkkejä, kuvia, lomakkeita, tiedostoja eikä muita teknisiä riippuvuuksia vanhasta `nettisivu.org`-sivustosta.
+- Kokoukset 2004–2019: 14 paikallista HTML-sivua ja 101 ladattua kuvaa, teknisesti tarkistettu.
+- Kokoukset 2021–2025: 3 tiivistelmäsivua; alkuperäiskertomusten ja kuvien kattavuus vielä tarkistettava.
+- Säännöt: koko vanhalla sivustolla julkaistu teksti siirretty, numerointipoikkeama 8 § säilytetty. Ei virallisesti vahvistettu.
+- Historia ja tutkimus: lähdesivujen tekstit siirretty kokonaisuudessaan paikallisille sivuille.
+- Tietosuojaseloste: paikallinen teksti v. 2022; ajantasaisuus tarkistamatta.
+- Jäsenmaksu: 30 €/perhe 2026; skannatun maksulomakkeen tiedot tarkistamatta eikä tiedostoa vielä julkaistu.
+- Sukurekisterin kyselylomake: vanha PDF ei sovellu julkaistavaksi sellaisenaan, koska siinä on vanha verkkosivun osoite.
+- Yhteystiedot: nimet sivustolla, ajantasaisuus tarkistamatta.
 
-`python check_release.py` tarkistaa HTML:n sisäiset linkit, kuvien ja skriptien polut sekä viittaukset vanhaan domainiin. Julkaisuun kelpaavan version on läpäistävä se virheittä. Tarkistus ei yksin todista sisällön täydellisyyttä eikä henkilötietojen oikeellisuutta.
-
-## Tämänhetkinen tilanne (develop)
-- Sääntösivu: paikallinen tiivistelmä, alkuperäinen sääntöteksti ei kokonaisuudessaan tallessa. 8 § puuttuu nykyisen julkisen lähdetekstin numeroinnista. Älä keksi puuttuvaa sisältöä.
-- Historia ja sukututkimus: paikalliset tiivistelmät, osa alkuperäisistä teksteistä edelleen muualla.
-- Kokoukset: 17 vuosittaista kohdetta listattu, mutta yksityiskohtaiset kertomukset ja kuvat ovat vielä vanhassa palvelussa.
-- Jäsenmaksulomake: ei vielä paikallista PDF-tiedostoa.
-- Sukurekisteri: vanha verkkolomake ja tietosuojaseloste eivät vielä ole itsenäisinä paikallisina sisältöinä.
-- Yhteystiedot: ajantasaisuus on erikseen hyväksyttävä.
-
-## Siirtotyön järjestys
-1. Kokousarkiston kertomukset ja valokuvat talteen paikallisiin tiedostoihin; tarkista kuvien käyttöoikeudet ja henkilöiden tietosuoja.
-2. Alkuperäinen sääntöteksti talteen paikalliseksi sisällöksi, julkaistun lähteen epävarmuus selkeästi ilmoittaen.
-3. Historia- ja tutkimustekstit täydellisiksi, ilman tyhjiä viittauksia.
-4. Jäsenmaksu ja yhteystietojen asiakirjat: siirrä PDF:t tai korvaa turvallisilla itsenäisillä ohjeilla.
-5. Poista kaikki vanhat domain-linkit ja aja `python check_release.py`.
-6. Tarkista sivujen sisällöt ja vasta sen jälkeen yhdistä develop -> main ja ota Pages käyttöön.
-
-Älä siirrä jäsenrekisterin henkilötietoja julkiseen repositorioon.
-
-
-## Erä 1: kokoukset 2021, 2023, 2025 (v8)
-- Kolme paikallista kokoussivua lisätty `kokoukset/`-hakemistoon.
-- Kolme kokousarkiston ulkoista linkkiä korvattu paikallisilla linkeillä.
-- Sisältö on lähdetekstien pohjalta kirjoitettu lyhyeksi kuvaukseksi, ei sanatarkaksi arkistoksi.
-- Alkuperäiset kokouskuvat (ainakin 2021 ja 2023) puuttuvat vielä; niitä ei korvata keinotekoisella historialliskuvalla.
-- Vanhat kokoukset 2004–2019 sekä muut ulkoiset riippuvuudet odottavat siirtoa.
-- Sivustoa EI SAA julkaista ennen julkaisuntarkistuksen hyväksyntää ja puuttuvan arkistoaineiston käsittelyä.
+Julkaisu vaatii teknisen check_release.py-tarkistuksen lisäksi asiakirjojen ja yhteystietojen sisällöllisen hyväksynnän. Älä julkaise jäsenrekisterin sisältöä GitHubiin.
