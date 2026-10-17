@@ -56,3 +56,10 @@ Etusivun taustamaisema ja kolme sisältökortin kuvaa on rajattu hyväksytystä 
 `assets/`-kansion WEBP-kuvat on sisällytettävä julkaistavaan hakemistoon. Avaa testauksessa puretun ZIP-paketin `fabritius-site/index.html` (ei ZIP-tiedostoa suoraan).
 
 Julkaisu GitHub Pagesiin ei ole vielä käytössä; sisällön tarkistus jatkuu.
+
+## Kehityspaketti 5 – sääntöjen rakenteinen kooste
+
+- `saannot.html` on päivitetty kattamaan alkuperäisen sivun kaikki kuusi lukua ja pykäläotsikot.
+- Tekstit ovat **toimituksellisia tiivistelmiä**, eivät alkuperäisten sääntöjen sanatarkka kopio.
+- Huomio: vanhassa sääntötekstissä pykälä 8 puuttuu numeroinnista.
+- Julkaisun este: yhdistyksen hyväksyttyjen sääntöjen tarkka sanamuoto pitää tuoda mukaan myöhemmin ja varmentaa.
