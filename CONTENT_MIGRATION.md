@@ -61,3 +61,14 @@ Nämä ovat jatkokehitystä, eivät v1.0:n teknisiä julkaisun esteitä. Kuvien 
 - Testit ennen julkaisua: 26 HTML-sivua, 589 viittausta, 0 vanhaa sivustoriippuvuutta, 0 puuttuvaa paikallista resurssia; kolme sisältöporttia OK.
 - Julkisen etusivun lopullinen ulkoasu hyväksytty ennen main-haaraan siirtoa.
 - Avoimet jatkotyöt säilyvät ennallaan (maksutiedot, tietosuojan ajantasaisuus, sukurekisterilomake ja mahdolliset uudet uutiset tai arkistoaineistot).
+
+## v1.3 – Tekstikorjaukset ja sukututkimuslinkki (17.10.2026)
+
+- Julkaisucommit: `1a765129927660d6273a93ded8f1a53f49550765`; `main` ja `develop` todettu yhteneviksi julkaisun jälkeen.
+- `yhteystiedot.html`: poistettu GitHub Issues -julkaisuvaroitus; muu yhteystieto- ja rekisteriohjeistus säilytetty.
+- `tietosuojaseloste.html`: poistettu väliaikainen ajantasaisuushuomautus; varsinainen 5.5.2022 päivätty seloste säilytetty.
+- `ajankohtaista.html`: lisätty käyttäjän vahvistama tieto seuraavasta sukukokouksesta kesällä 2027 ja kahden vuoden kokousvälistä.
+- `tutkimus.html`: lisätty `https://www.familysearch.org/fi/global` sekä käyttäjän antama johdantoteksti.
+- `check_decisions_v14.py`: korjattu vanhentunut vaatimus huomautuslaatikon olemassaolosta. Tietosuojaselosteen varsinainen sisältö tarkistetaan edelleen.
+- Julkaisua edeltäneet tekniset tarkistukset hyväksytty: 26 HTML-sivua ja 590 viittausta, ei puuttuvia paikallisia resursseja eikä vanhoja palveluviittauksia.
+- Erilliset tietosuoja- ja lähdeaineiston ajantasaisuuden tarkistustarpeet säilyvät jatkokehityksenä; huomautusten poistaminen sivuilta ei vahvista tietosuojaselosteen ajantasaisuutta.

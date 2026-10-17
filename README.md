@@ -70,3 +70,14 @@ Tarkempi julkaisu- ja siirtopöytäkirja: [`CONTENT_MIGRATION.md`](CONTENT_MIGRA
 - Ennen julkaisua automaattiset tarkistukset läpäistiin: 26 HTML-tiedostoa, 589 viittausta, 0 vanhaa sivustoviittausta ja 0 puuttuvaa resurssia.
 
 Julkaisuun liittyvät hyväksynnät eivät ole lupaus kaikkien alkuperäisten arkistoaineistojen täydellisyydestä. Mahdolliset lisäaineistot lisätään myöhemmin erillisinä muutoksina.
+
+## v1.3 – Tekstikorjaukset ja FamilySearch-linkki (17.10.2026)
+
+- Julkaistu `main`-haaraan commitissa `1a765129927660d6273a93ded8f1a53f49550765`.
+- Yhteystiedot-sivulta poistettiin GitHub-repositorion ja Issues-keskustelujen käyttöä koskeva lause. Sukurekisterin yhteydenotto-ohje jäi ennalleen.
+- Tietosuojaselosteen yläosan väliaikainen huomautuslaatikko poistettiin. Alkuperäinen 5.5.2022 päivätty tietosuojaseloste säilytettiin.
+- Ajankohtaista-sivun väliaikaisen ilmoituksen tilalle lisättiin tieto kahden vuoden kokousvälistä ja kesän 2027 kokouksesta.
+- Sukututkimus-sivulle lisättiin FamilySearch-linkki Carl Fabritiuksen lapsiluettelon alle.
+- `check_decisions_v14.py` muutettiin tarkistamaan tietosuojaselosteen alkuperäisen sisällön säilyminen poistetun väliaikaismerkinnän sijaan.
+- `check_release.py`, `check_content_v13.py` ja `check_decisions_v14.py` hyväksytty; 26 HTML-tiedostoa, 590 viittausta, 0 puuttuvaa paikallista resurssia ja 0 viittausta vanhaan palveluun.
+- Käyttäjän hyväksymät tekstimuutokset julkaistu ilman muita ulkoasu- tai sisältömuutoksia.
