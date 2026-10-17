@@ -8,7 +8,7 @@ errors=[]
 if membership.count('Vuoden 2026 jäsenmaksu on 30 euroa perheeltä') != 1: errors.append('member fee missing or duplicated')
 if 'Tilinumero ja maksun viitetiedot julkaistaan' not in membership: errors.append('payment guidance missing')
 if 'ei ole verkkolomaketta tai ladattavaa lomaketta' not in contact: errors.append('registry form decision missing')
-if 'Tämä on sukuseuran aiemmin julkaisema seloste' not in privacy: errors.append('privacy status note missing')
+if 'Laadittu 5.5.2022' not in privacy: errors.append('privacy document date missing')
 if 'EU:n yleisen tietosuoja-asetuksen 13 ja 14 artiklan mukainen tietosuojaseloste.' not in privacy: errors.append('original privacy text missing')
 print('V14 päätöstarkistus:', 'OK' if not errors else ', '.join(errors))
 raise SystemExit(bool(errors))
