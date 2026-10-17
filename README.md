@@ -1,74 +1,58 @@
-# Fabritius-sukuseura ry – GitHub Pages -sivustoluonnos
+# Fabritius-sukuseura ry – verkkosivut
 
-**Tila: testiversio – ei vielä julkaistavaksi.** Staattinen HTML/CSS/JS-sivusto; ilmainen GitHub Pages soveltuu julkiseen repositorioon.
+**Tila: v1.0 julkaistu 17.10.2026.**
 
-## Kokeile
+- Sivusto: https://fabritius-sukuseura.github.io/
+- Teknologia: staattinen HTML, CSS ja JavaScript
+- Julkaisu: GitHub Pages, `main`-haara, `/ (root)`
+- Ylläpito: yksi ylläpitäjä GitHubin kautta; maksullista hostingia ei tarvita
 
-Pura ZIP ja avaa `index.html` selaimessa. Siirry valikolla sivulta toiselle ja tarkista mobiilinäkymä.
+## Sisältö
 
-## Toteutettu
+- `index.html` – etusivu
+- `sukuseura.html` ja `saannot.html` – yhdistyksen toiminta, jäsenmaksu ja säännöt
+- `historia.html` ja `tutkimus.html` – suvun historia ja sukututkimus
+- `kokoukset.html` ja `kokoukset/` – 17 kokoussivua vuosilta 2004–2025
+- `ajankohtaista.html` – ajankohtaiset asiat
+- `yhteystiedot.html` ja `tietosuojaseloste.html` – hallitus ja tietosuoja
+- `assets/` – vaakuna, kuvitus, tyylit, JavaScript ja 101 kokouskuvaa
 
-- Seitsemän pääsivua, responsiivinen navigaatio ja hyväksytty vihreä/kulta/kerma-tyylisuunta.
-- Käyttäjän toimittama alkuperäinen vaakuna otsakkeessa ja alatunnisteessa (`assets/fabritius-vaakuna.png`).
-- Kokousarkisto vuosilta 2004–2025; linkit suoraan alkuperäisiin kokoussivuihin (ei vain arkiston etusivulle).
-- Alustavat sisällöt ja linkit alkuperäislähteisiin.
+Osa etusivun kuvituksesta on havainnollistavaa, ei historiallista valokuva-aineistoa.
 
-## Julkaisun esteet
+## Muutosten tekeminen
 
-1. Vanhan sivuston kaikkia artikkeleita, valokuvia ja dokumentteja ei vielä ole siirretty paikallisiksi tiedostoiksi.
-2. Hallituksen yhteystiedot ja henkilötietoja sisältävät dokumentit on tarkistettava ennen julkaisua.
-3. Nykyisen sivun kuvitus mockupissa on **konseptikuva**, ei vielä tuotantokäyttöön hyväksytty erillinen valokuva. HTML-version hero käyttää siksi CSS-taustaa.
-4. Jäsenmaksun maksutiedot on tarkistettava ennen julkaisemista.
-5. Vanhan WordPress-sivuston hallintapääsyä ei ole; sisältösiirto tehdään julkisesta aineistosta.
+1. Muokkaa ja testaa uudet sisällöt `develop`-haarassa.
+2. Aja ennen julkaisua:
 
-## GitHub Pages -julkaisu, vasta hyväksynnän jälkeen
+   ```powershell
+   python check_release.py
+   python check_content_v13.py
+   python check_decisions_v14.py
+   ```
 
-1. Luo organisaatio `fabritius-sukuseura` (jos nimi saatavilla).
-2. Luo julkinen repositorio `fabritius-sukuseura.github.io`.
-3. Lisää tämän hakemiston sisältö repositorion `main`-haaran juureen.
-4. Settings → Pages → Deploy from branch → `main` → `/ (root)`.
-5. Testaa `https://fabritius-sukuseura.github.io/`.
+3. Tarkista lopputulos selaimessa tietokone- ja mobiilikoossa.
+4. Siirrä hyväksytty versio `main`-haaraan ilman pakotettua päivitystä.
+5. GitHub Pages julkaisee `main`-haaran juurihakemistosta.
 
-Sivuston HTML-tekstit ovat ylläpidettävissä myös GitHubin verkkotiedostoeditorilla.
+Testiskriptit eivät korvaa tietosuojan, kuvaoikeuksien ja aineistojen sisällöllistä tarkistusta.
 
-## Sisältöauditointi 17.10.2026
+## Ensimmäisen julkaisun päätökset
 
-- [x] Etusivun alkuperäiset navigaatio-osiot paikallistettu.
-- [x] Tutkittua-sivun henkilötiedot koottu julkisesta historiatiedosta.
-- [x] Suvun historiaa -sivulle lisätty lähdeperustainen tiivistelmä.
-- [x] Sääntöjen rakenne kuvattu ja alkuperäiseen sääntötekstiin linkitetty.
-- [x] Jäsenmaksu 2026 (30 €/perhe) ja alkuperäinen maksulomake linkitetty.
-- [x] Kokousarkiston 17 kokousta, vanhojen alasivujen linkit mukana.
-- [x] Sukurekisterin ilmoituslomake ja tietosuojaseloste linkitetty.
-- [ ] Kaikkien kokouskertomusten paikalliset versiot ja kuvat.
-- [ ] Sääntöjen sanatarkka versio hyväksytystä alkuperäisestä lähteestä.
-- [ ] Dokumenttien paikalliset, oikeellisuustarkastetut kopiot.
-- [ ] Hallituksen ja tietosuojaselosteen ajantasaisuus hyväksyttävä.
-- [ ] Visuaaliset kuvat ratkaistava ennen lopullista julkaisua.
+- Hyväksytty vihreä-kultainen ulkoasu ja Fabritius-vaakuna.
+- Hallituksen neljä nimeä ja tehtävää on vahvistettu 17.10.2026.
+- Kokousarkiston 101 kuvan julkaisu on hyväksytty 17.10.2026.
+- Vuoden 2026 jäsenmaksu on 30 euroa perheeltä. Tilinumero ja maksun viite lisätään vain erillisen vahvistuksen jälkeen.
+- Sukurekisterin lomaketta ei julkaista tässä vaiheessa.
+- Tietosuojaselosteen 5.5.2022 teksti säilytetään, ja ajantasaisuus tarkistetaan myöhemmin.
+- Sivuston HTML-tiedostot eivät sisällä riippuvuuksia vanhaan verkkosivupalveluun.
 
-Sivustossa käytetään tällä hetkellä alkuperäiseen sivustoon vieviä linkkejä siellä, missä sisältöä ei ole siirretty. Näitä ei pidä käsitellä valmiina offline-siirtona.
+## Jatkokehitys
 
+- Jäsenmaksun vahvistetut maksutiedot haluttaessa.
+- Tietosuojaselosteen päivittäminen.
+- Sukurekisterin turvallisen tiedonkeruun suunnittelu tarvittaessa.
+- Uutisten ja sukututkimuksen linkkien laajentaminen.
+- Kokousten 2021, 2023 ja 2025 täydentäminen, jos alkuperäistä lisäaineistoa löytyy.
+- Sääntöjen mahdollisen uudemman vahvistetun version tarkistus (julkaistussa lähdetekstissä 8 § puuttuu).
 
-## Versio 4 – kuvitus
-
-Etusivun taustamaisema ja kolme sisältökortin kuvaa on rajattu hyväksytystä ulkoasumockupista. Ne ovat **havainnollistavia kuvia**, eivät Fabritius-suvun todellisia historiallisia valokuvia tai kokouspaikkoja. Historialliset kuvat voidaan myöhemmin vaihtaa todellisiin, käyttöoikeuksiltaan varmistettuihin kuviin.
-
-`assets/`-kansion WEBP-kuvat on sisällytettävä julkaistavaan hakemistoon. Avaa testauksessa puretun ZIP-paketin `fabritius-site/index.html` (ei ZIP-tiedostoa suoraan).
-
-Julkaisu GitHub Pagesiin ei ole vielä käytössä; sisällön tarkistus jatkuu.
-
-## Kehityspaketti 5 – sääntöjen rakenteinen kooste
-
-- `saannot.html` on päivitetty kattamaan alkuperäisen sivun kaikki kuusi lukua ja pykäläotsikot.
-- Tekstit ovat **toimituksellisia tiivistelmiä**, eivät alkuperäisten sääntöjen sanatarkka kopio.
-- Huomio: vanhassa sääntötekstissä pykälä 8 puuttuu numeroinnista.
-- Julkaisun este: yhdistyksen hyväksyttyjen sääntöjen tarkka sanamuoto pitää tuoda mukaan myöhemmin ja varmentaa.
-
-## Kehityspaketti 6 – sisällöt ja sääntöversion valinta
-
-- Käyttäjän päätös: verkkosivulla julkaistu sääntöversio kelpaa lähteeksi, vaikka virallista alkuperäistä asiakirjaa ei ole.
-- Sääntösivulla säilytetään julkaistut pykälänumerot ja kerrotaan 8 §:n puuttumisesta. Sivusto ei väitä versiota vahvistetuksi.
-- Sääntöjen tekstit ovat edelleen tiivistelmiä, eivät sanatarkka siirto. Alkuperäinen verkkosivu linkitetty.
-- Historiasivun tulkinnat tarkennettu, artikkelin historiallinen väestömäärä erotettu nykytilanteesta.
-- Tutkittua-sivulle lisätty lähteessä mainitut tutkittujen sukuhaarojen merkinnät Danielille ja Juhanalle.
-- Julkaisu estetty edelleen, kunnes vanhaan sivustoon osoittavat arkisto- ja dokumenttilinkit on käsitelty ja yhteystiedot tarkistettu.
+Tarkempi julkaisu- ja siirtopöytäkirja: [`CONTENT_MIGRATION.md`](CONTENT_MIGRATION.md).

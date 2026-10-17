@@ -1,24 +1,48 @@
-# Fabritius-sukuseura – julkaisuvalmistelun tila (v13)
+# Fabritius-sukuseura – v1.0-julkaisun sisältö- ja päätöspöytäkirja
 
-## Todennettu tekninen tilanne
-- 26 HTML-sivua, 585 HTML-viittausta, vanhoja linkkejä 0, puuttuvia paikallisia resursseja 0 (v12:n tarkistus).
-- Kokousarkistossa 17 sivua ja 101 teknisesti avautuvaa kuvaa.
-- Kaksi kuvaa ovat pieniä: 2006-01.jpg (300 × 92) ja 2007-09.jpg (300 × 78).
-- Koko sääntöteksti, historia, Tutkittua ja vuoden 2022 tietosuojaseloste paikallisina.
+## Julkaisu
 
-## Julkaisua estävät sisällölliset hyväksynnät
-1. Vuoden 2026 jäsenmaksu 30 €/perhe: vahvista tilinumero ja viitetiedot erikseen ennen PDF:n julkaisua.
-2. Sukurekisterin tyhjä lomake: vanha PDF sisältää vanhan verkkotunnuksen ja postitusyhteystiedot; vastaanottaja, palautuskanava ja käsittelyohje vaativat vahvistuksen.
-3. Tietosuojaseloste (5.5.2022): tarkista rekisterinpitäjän yhteystiedot ja käytännöt.
-4. Hallituksen yhteystiedot: vahvista nimet/roolit ennen julkaisua.
-5. Kokoukset 2021, 2023, 2025: alkuperäistekstien/valokuvien kattavuus tarkistettava.
-6. Julkisten kokouskuvien ja henkilötietojen julkaisu: yhdistyksen tarkistus.
+- Päivä: 17.10.2026
+- Sivusto: https://fabritius-sukuseura.github.io/
+- Hyväksytty sisältöcommit: `fdf9d29`
+- Julkaisukanava: GitHub Pages, `main` / `/ (root)`, HTTPS
+- Julkaisun selaintestaus (tietokone ja mobiili): käyttäjän hyväksymä
+- GitHub Pages -sivuston näkyminen oikeana: käyttäjän vahvistama
 
-Julkaisu edellyttää: `python check_release.py` ja `python check_content_v13.py`, sekä yllä olevien hyväksyntöjen dokumentointi. `develop` ei ole julkaisua varten.
+## Tekniset hyväksymistulokset
 
-## V14 – käyttäjän hyväksymät julkaisupäätökset (17.10.2026)
-- Jäsenmaksu: 30 euroa perheeltä vuonna 2026. Tilinumero ja maksuviite julkaistaan **vain erillisen vahvistuksen jälkeen**. Maksutietojen puuttuminen ei estä sivuston muuta julkaisua; sivulla on ohje pyytää tiedot rahastonhoitajalta.
-- Sukurekisteri: **ei lomaketta toistaiseksi**. Älä julkaise vanhaa PDF:ää tai sen vanhentuneita palautusohjeita.
-- Tietosuojaseloste: **säilytetään 5.5.2022 julkaistu sisältö muuttumattomana**, käyttäjä tarkistaa ajantasaisuuden myöhemmin. Julkisesti kerrotaan, ettei ajantasaisuutta ole vahvistettu.
-- Näitä päätöksiä ei pidä merkitä hyväksytyiksi pankkiyhteystiedoiksi eikä selosteen tietosuojatarkastukseksi.
-- Ennen `main`-haaraan siirtoa tarkistetaan hallituksen nimet ja roolit, kokousten 2021–2025 arkistosisältö ja valokuvien julkaisemisen perusteet sekä selaintestaus.
+- 26 HTML-tiedostoa ja 585 tarkistettua viittausta
+- 17 paikallista kokoussivua ja 101 JPEG-kuvaa
+- 0 vanhan palvelun viittausta HTML-tiedostoissa
+- 0 puuttuvaa paikallista linkkiä tai resurssia
+- `check_release.py`, `check_content_v13.py` ja `check_decisions_v14.py` hyväksytty
+- v15-lopputarkistus: 0 automaattista havaintoa
+- Kuvista `2006-01.jpg` ja `2007-09.jpg` ovat matalaresoluutioisia, mutta avautuvat.
+
+## Käyttäjän hyväksymät ratkaisut
+
+- Etusivun ulkoasu ja sukuseuran vaakuna hyväksytty.
+- Kokouskuvien julkaiseminen hyväksytty.
+- Hallituksen tehtävät: puheenjohtaja Markku Fabritius, varapuheenjohtaja Jukka Fabritius, sihteeri Rita Niemi ja rahastonhoitaja Mika Oinas; vahvistettu 17.10.2026.
+- Jäsenmaksu vuodelle 2026: 30 euroa/perhe; pankki- ja viitetiedot julkaistaan vain erikseen vahvistettuina.
+- Sukurekisterin lomaketta ei julkaista toistaiseksi.
+- Tietosuojaselosteen (5.5.2022) teksti säilytetään nykyisellään. Käyttäjä tarkistaa sen ajantasaisuuden myöhemmin.
+- Vanhan sivuston viittauksia ei saa olla lopullisessa sivustossa.
+
+## Myöhemmät kehitystehtävät
+
+1. Pankki- ja viitetietojen vahvistaminen sekä mahdollinen julkaisu.
+2. Tietosuojaselosteen ja rekisterinpitäjätietojen ajantasaisuuden tarkistus.
+3. Sukurekisterin lomake tai turvallinen yhteydenottotapa, jos sitä myöhemmin tarvitaan.
+4. Uutisten sekä sukututkimuksen aineisto- ja linkkiosioiden laajentaminen.
+5. Vuosien 2021, 2023 ja 2025 kokousaineiston täydentäminen, jos lisämateriaalia saadaan.
+6. Yhdistyksen vahvistettujen sääntöjen päivittäminen mahdollisen uuden lähteen perusteella. Alkuperäisessä verkkotekstissä puuttui 8 §.
+
+Nämä ovat jatkokehitystä, eivät v1.0:n teknisiä julkaisun esteitä. Kuvien käyttöoikeuksiin ja tietosuojaan liittyvät velvoitteet säilyvät myös julkaisun jälkeen.
+
+## Työtapa
+
+- `develop`: toteutus ja testaus.
+- `main`: hyväksytty julkaisuversio.
+- Ennen julkaisua ajetaan testit, tarkistetaan selaimella ja dokumentoidaan muutokset.
+- Julkaisu ilman `--force`-päivityksiä.
