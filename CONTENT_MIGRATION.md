@@ -15,3 +15,10 @@
 6. Julkisten kokouskuvien ja henkilötietojen julkaisu: yhdistyksen tarkistus.
 
 Julkaisu edellyttää: `python check_release.py` ja `python check_content_v13.py`, sekä yllä olevien hyväksyntöjen dokumentointi. `develop` ei ole julkaisua varten.
+
+## V14 – käyttäjän hyväksymät julkaisupäätökset (17.10.2026)
+- Jäsenmaksu: 30 euroa perheeltä vuonna 2026. Tilinumero ja maksuviite julkaistaan **vain erillisen vahvistuksen jälkeen**. Maksutietojen puuttuminen ei estä sivuston muuta julkaisua; sivulla on ohje pyytää tiedot rahastonhoitajalta.
+- Sukurekisteri: **ei lomaketta toistaiseksi**. Älä julkaise vanhaa PDF:ää tai sen vanhentuneita palautusohjeita.
+- Tietosuojaseloste: **säilytetään 5.5.2022 julkaistu sisältö muuttumattomana**, käyttäjä tarkistaa ajantasaisuuden myöhemmin. Julkisesti kerrotaan, ettei ajantasaisuutta ole vahvistettu.
+- Näitä päätöksiä ei pidä merkitä hyväksytyiksi pankkiyhteystiedoiksi eikä selosteen tietosuojatarkastukseksi.
+- Ennen `main`-haaraan siirtoa tarkistetaan hallituksen nimet ja roolit, kokousten 2021–2025 arkistosisältö ja valokuvien julkaisemisen perusteet sekä selaintestaus.
