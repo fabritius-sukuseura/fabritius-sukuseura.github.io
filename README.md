@@ -63,3 +63,12 @@ Julkaisu GitHub Pagesiin ei ole vielä käytössä; sisällön tarkistus jatkuu.
 - Tekstit ovat **toimituksellisia tiivistelmiä**, eivät alkuperäisten sääntöjen sanatarkka kopio.
 - Huomio: vanhassa sääntötekstissä pykälä 8 puuttuu numeroinnista.
 - Julkaisun este: yhdistyksen hyväksyttyjen sääntöjen tarkka sanamuoto pitää tuoda mukaan myöhemmin ja varmentaa.
+
+## Kehityspaketti 6 – sisällöt ja sääntöversion valinta
+
+- Käyttäjän päätös: verkkosivulla julkaistu sääntöversio kelpaa lähteeksi, vaikka virallista alkuperäistä asiakirjaa ei ole.
+- Sääntösivulla säilytetään julkaistut pykälänumerot ja kerrotaan 8 §:n puuttumisesta. Sivusto ei väitä versiota vahvistetuksi.
+- Sääntöjen tekstit ovat edelleen tiivistelmiä, eivät sanatarkka siirto. Alkuperäinen verkkosivu linkitetty.
+- Historiasivun tulkinnat tarkennettu, artikkelin historiallinen väestömäärä erotettu nykytilanteesta.
+- Tutkittua-sivulle lisätty lähteessä mainitut tutkittujen sukuhaarojen merkinnät Danielille ja Juhanalle.
+- Julkaisu estetty edelleen, kunnes vanhaan sivustoon osoittavat arkisto- ja dokumenttilinkit on käsitelty ja yhteystiedot tarkistettu.
