@@ -33,3 +33,42 @@
   .hero p { font-size: 17px; margin: 13px 0 18px; }
   .hero + .section { padding-top: 30px; }
 }
+
+/* v1.2: homepage facebook card and meeting content cleanup */
+@media (min-width: 901px) {
+  .hero.hero-photo .wrap {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: center;
+    gap: 48px;
+  }
+  .hero-facebook {
+    justify-self: end;
+    width: 100%;
+    max-width: 300px;
+    background: rgba(255,255,255,.72);
+    border: 1px solid #c6ae7b;
+    border-radius: 16px;
+    padding: 22px 22px 20px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.06);
+  }
+  .hero-facebook p { margin: 10px 0 16px; font-size: 16px; }
+}
+@media (max-width: 900px) {
+  .hero-facebook {
+    margin-top: 18px;
+    background: rgba(255,255,255,.72);
+    border: 1px solid #c6ae7b;
+    border-radius: 14px;
+    padding: 18px 18px 16px;
+  }
+  .hero-facebook p { margin: 8px 0 14px; font-size: 16px; }
+}
+.hero-facebook-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: 12px;
+  color: #8b6a2b;
+  font-weight: 700;
+}
+.hero-facebook-btn { display: inline-block; }
