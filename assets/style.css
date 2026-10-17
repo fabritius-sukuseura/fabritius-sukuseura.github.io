@@ -72,3 +72,30 @@
   font-weight: 700;
 }
 .hero-facebook-btn { display: inline-block; }
+
+/* v1.2.1: restore original hero content flow */
+/* Never put the original hero children in a grid. */
+.hero.hero-photo .wrap { display:block; position:relative; }
+@media (min-width: 1100px) {
+  .hero.hero-photo .wrap { padding-right:330px; }
+  .hero-facebook {
+    position:absolute;
+    top:50%; right:28px;
+    transform:translateY(-50%);
+    width:275px;
+    max-width:275px;
+    margin:0;
+  }
+  .hero.hero-photo h1 { max-width:590px; }
+}
+@media (min-width:901px) and (max-width:1099px) {
+  .hero-facebook {
+    position:static;
+    transform:none;
+    margin:20px 0 0 auto;
+    max-width:300px;
+  }
+}
+@media (max-width:900px) {
+  .hero-facebook { position:static; transform:none; margin-top:20px; }
+}
