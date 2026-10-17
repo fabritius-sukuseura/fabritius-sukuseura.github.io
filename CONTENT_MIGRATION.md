@@ -46,3 +46,18 @@ Nämä ovat jatkokehitystä, eivät v1.0:n teknisiä julkaisun esteitä. Kuvien 
 - `main`: hyväksytty julkaisuversio.
 - Ennen julkaisua ajetaan testit, tarkistetaan selaimella ja dokumentoidaan muutokset.
 - Julkaisu ilman `--force`-päivityksiä.
+
+
+## Julkaistu päivitys v1.2 – 17.10.2026
+
+- Tuotantoon julkaistu commit: `b90cc6e8af1994f82b0e45f2b5d14bf5a940d694`.
+- Julkaisun yhteydessä `main` ja `develop` vastasivat samaa committia.
+- Muutokset ennen julkaisua: `cbfe660`, `9fe4480`, `b90cc6e`.
+- Etusivun pienennetty otsikko ja matalampi hero-alue säilytetty hyväksytyssä asettelussa. Facebook-kortti oikealla, alkuperäinen otsikko, johdanto ja toimintapainike vasemmalla.
+- Facebook-linkki lisätty etusivulle ja Yhteystiedot-sivulle.
+- 2021 Sannaisten ja 2023 Backbyn kartanokuvat sisällytetty paikallisina tiedostoina.
+- Vuoden 2021 kokouksen kuvausta täydennetty käyttäjän toimittamalla tekstillä.
+- Sääntösivun ja kokousarkiston toimituksellisia huomautuksia poistettu. Julkaisussa ei esitetä väitteitä puuttuvista kuvista tai aineistoista.
+- Testit ennen julkaisua: 26 HTML-sivua, 589 viittausta, 0 vanhaa sivustoriippuvuutta, 0 puuttuvaa paikallista resurssia; kolme sisältöporttia OK.
+- Julkisen etusivun lopullinen ulkoasu hyväksytty ennen main-haaraan siirtoa.
+- Avoimet jatkotyöt säilyvät ennallaan (maksutiedot, tietosuojan ajantasaisuus, sukurekisterilomake ja mahdolliset uudet uutiset tai arkistoaineistot).

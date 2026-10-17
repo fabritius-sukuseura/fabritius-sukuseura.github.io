@@ -56,3 +56,17 @@ Testiskriptit eivät korvaa tietosuojan, kuvaoikeuksien ja aineistojen sisällö
 - Sääntöjen mahdollisen uudemman vahvistetun version tarkistus (julkaistussa lähdetekstissä 8 § puuttuu).
 
 Tarkempi julkaisu- ja siirtopöytäkirja: [`CONTENT_MIGRATION.md`](CONTENT_MIGRATION.md).
+
+
+## Päivitys v1.2 – etusivu, Facebook ja kokousarkisto (17.10.2026)
+
+- Julkaistu sivustoversio: `b90cc6e8af1994f82b0e45f2b5d14bf5a940d694`.
+- Etusivun suuri otsikko ja hero-osion korkeus pienennettiin v1.1-päivityksessä; alkuperäinen vasemmanpuoleinen sisältö säilytettiin.
+- Etusivulle lisättiin näkyvä Facebook-linkki oikealle. Sama linkki löytyy Yhteystiedot-sivulta: https://fi-fi.facebook.com/people/Fabritius-Sukuseura-ry/100064779093875/
+- Kokousarkiston ja sääntösivun toimituksellisia huomautuslaatikoita poistettiin.
+- Vuosien 2021 ja 2023 kokoussivuille lisättiin kartanokuvat; vuoden 2021 kertomusta täydennettiin käyttäjän toimittamalla tekstillä.
+- Vuosien 2021, 2023 ja 2025 kokoussivuilta poistettiin puuttuvasta aineistosta kertovia huomautuksia.
+- Käyttäjä hyväksyi korjatun etusivun selaimessa; muutos julkaistiin `main`-haaraan.
+- Ennen julkaisua automaattiset tarkistukset läpäistiin: 26 HTML-tiedostoa, 589 viittausta, 0 vanhaa sivustoviittausta ja 0 puuttuvaa resurssia.
+
+Julkaisuun liittyvät hyväksynnät eivät ole lupaus kaikkien alkuperäisten arkistoaineistojen täydellisyydestä. Mahdolliset lisäaineistot lisätään myöhemmin erillisinä muutoksina.
