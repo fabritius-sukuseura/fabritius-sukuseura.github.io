@@ -22,3 +22,12 @@ Lopullisessa julkaistussa sivustossa ei ole linkkejä, kuvia, lomakkeita, tiedos
 6. Tarkista sivujen sisällöt ja vasta sen jälkeen yhdistä develop -> main ja ota Pages käyttöön.
 
 Älä siirrä jäsenrekisterin henkilötietoja julkiseen repositorioon.
+
+
+## Erä 1: kokoukset 2021, 2023, 2025 (v8)
+- Kolme paikallista kokoussivua lisätty `kokoukset/`-hakemistoon.
+- Kolme kokousarkiston ulkoista linkkiä korvattu paikallisilla linkeillä.
+- Sisältö on lähdetekstien pohjalta kirjoitettu lyhyeksi kuvaukseksi, ei sanatarkaksi arkistoksi.
+- Alkuperäiset kokouskuvat (ainakin 2021 ja 2023) puuttuvat vielä; niitä ei korvata keinotekoisella historialliskuvalla.
+- Vanhat kokoukset 2004–2019 sekä muut ulkoiset riippuvuudet odottavat siirtoa.
+- Sivustoa EI SAA julkaista ennen julkaisuntarkistuksen hyväksyntää ja puuttuvan arkistoaineiston käsittelyä.
